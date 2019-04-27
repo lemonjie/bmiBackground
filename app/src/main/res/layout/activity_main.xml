@@ -4,20 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/catback"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textViewShow"
-        android:layout_width="240dp"
-        android:layout_height="116dp"
+        android:layout_width="196dp"
+        android:layout_height="77dp"
         android:layout_marginTop="8dp"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonBMI"
-        app:layout_constraintVertical_bias="0.139" />
+        app:layout_constraintVertical_bias="0.02" />
 
     <EditText
         android:id="@+id/editTextName"
@@ -34,7 +34,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.198" />
+        app:layout_constraintVertical_bias="0.111" />
 
     <EditText
         android:id="@+id/editTextHeight"
@@ -78,12 +78,12 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:text="@string/bmiButton"
         android:onClick="response"
+        android:text="@string/bmiButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextWeight"
-        app:layout_constraintVertical_bias="0.058" />
+        app:layout_constraintVertical_bias="0.014" />
 
 </android.support.constraint.ConstraintLayout>

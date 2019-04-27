@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getWindow().setBackgroundDrawableResource(R.drawable.catback);
     }
 
     int size = 15;  //sp
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         String bmi = String.valueOf(bmiNum);
 
         txvShow.setTextSize(size);
-        txvShow.setText("Hello " + txname.getText().toString() + " ~\n" + "Your BMI is" + bmi);
+        txvShow.setText("Hello " + txname.getText().toString() + " ~\n\n" + "Your BMI is" + bmi);
         Toast.makeText(this, standardBMI(bmiNum), Toast.LENGTH_LONG).show();
     }
 
