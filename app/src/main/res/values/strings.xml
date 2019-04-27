@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">bmiBackground</string>
+    <string name="nameTextView">Name</string>
+    <string name="heightTextView">Height (cm)</string>
+    <string name="weightTextView">Weight (kg)</string>
+    <string name="bmiButton">show BMI</string>
+</resources>
